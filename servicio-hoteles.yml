@@ -17,3 +17,7 @@ eureka:
 
 server:
   port: 8081
+
+springdoc:
+  packages-to-scan: com.curso.controller
+  paths-to-match: /**
